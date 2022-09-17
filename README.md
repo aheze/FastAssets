@@ -1,5 +1,7 @@
 # FastAssets
-Testing to get photo assets quickly
+Testing repo to get `localIdentifier`s quickly
+
+[`PHFetchResult.enumerateObjects`](https://developer.apple.com/documentation/photokit/phfetchresult/1621006-enumerateobjects) seems to hang at around 0.7 seconds, for 40k photos. I only need each asset's `localIdentifier` so loading all the assets isn't necessary.
 
 Try it out:
 
